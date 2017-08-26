@@ -12,7 +12,6 @@ public class BusinessClassImpl{
     }
 
     public List<String> retrieveTodosContainingSpring(String user) {
-        abc;
         List<String> filteredTodos = new ArrayList<String>();
         List<String> todos = todoService.retrieveTodo(user);
         for(String todo:todos) {
